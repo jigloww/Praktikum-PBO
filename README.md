@@ -1,3 +1,4 @@
 ## Pemrograman Berorientasi Objek
 
 PERTEMUAN JOBSHEET 1
+PERTEMUAN JOBSHEET 2
