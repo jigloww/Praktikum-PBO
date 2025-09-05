@@ -1,5 +1,3 @@
-package Day2;
-
 public class MahasiswaDemo09 {
     public static void main(String[] args) {
         // objek 1

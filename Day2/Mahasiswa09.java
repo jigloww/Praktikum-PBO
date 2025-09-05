@@ -1,5 +1,3 @@
-package Day2;
-
 public class Mahasiswa09 {
     public String nim;
     public String nama;
