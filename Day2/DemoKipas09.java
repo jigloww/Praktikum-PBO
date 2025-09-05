@@ -1,10 +1,10 @@
 public class DemoKipas09 {
     public static void main(String[] args) {
-     
+        //OBJEK - OBJEK
         Kipas09 kipas1 = new Kipas09();
         kipas1.merk = "Cosmos";
         kipas1.warna = "Putih";
-        kipas1.harga = 250000;
+        kipas1.harga = 250000;              
         kipas1.ukuran = 16;
         kipas1.watt = 45;
 
