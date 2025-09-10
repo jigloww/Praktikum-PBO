@@ -1,20 +1,17 @@
 public class Mobil08 {
-    private String merek = "Rubicon";
+    private String merek;
     private int kecepatan;
 
-    public String getMerek() {
-        return merek;
-    }
-    public void setMerek(String merek) {
+    public Mobil08(String merek) {
         this.merek = merek;
     }
-    public int getKecepatan() {
-        return kecepatan;
+    public String getMerek() {
+        return merek;
     }
     public void setKecepatan(int kecepatan) {
         this.kecepatan = kecepatan;
     }
     public void tampilkanInfo() {
-        System.out.println("Kecepatan: " + kecepatan + " km/jam");
+        System.out.println("Merk: " + merek);
     }
 }
