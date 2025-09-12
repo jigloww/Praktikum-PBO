@@ -17,4 +17,32 @@ public class Motor08 {
         System.out.println("Kecepatan:" + this.kecepatan);
         System.out.println("======================");
     }
+
+    public String getPlatNomor() {
+        return platNomor;
+    }
+
+    public void setPlatNomor(String platNomor) {
+        this.platNomor = platNomor;
+    }
+
+    public boolean isIsMesinOn() {
+        return isMesinOn;
+    }
+
+    public void setIsMesinOn(boolean isMesinOn) {
+        this.isMesinOn = isMesinOn;
+    }
+
+    public int getKecepatan() {
+        return kecepatan;
+    }
+
+    public void setKecepatan(int kecepatan) {
+        if (!this.isMesinOn && kecepatan > 0) {
+            System.out.println("Kecepatan tidak boleh lebih dari 0 jika mesin off");
+        } else {
+        this.kecepatan = kecepatan;
+        }
+    }
 }
