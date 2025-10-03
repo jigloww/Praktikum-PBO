@@ -3,10 +3,16 @@ package Day5.P1; //testpackage
 public class Pegawai {
     public String nip;
     public String nama;
-    protected double gaji;
+    public double gaji;
 
-    public Pegawai() {
-        System.out.println("Objek dari class Pegawai dibuat");
+   // public Pegawai() {
+    //    System.out.println("Objek dari class Pegawai dibuat");
+   // }
+
+    public Pegawai(String nip, String nama, double gaji) {
+        this.nip = nip;
+        this.nama = nama;
+        this.gaji = gaji;
     }
 
     public String getInfo() {
