@@ -3,7 +3,7 @@ package Day6;
 public class Pegawai {
     public String nip;
     public String nama;
-    private double gaji;
+    protected double gaji;
 
     public Pegawai() {
         System.out.println("Objek dari class Pegawai dibuat");
