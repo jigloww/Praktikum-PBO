@@ -11,6 +11,7 @@ public class Lebah08 extends Hewan08 {
         System.out.println("Otot perut mengendur, udara masuk melalui lubang di segmen tubuh");
         System.out.println("Trakea mengirimkan oksigen");
         System.out.println("Otot perut berkontraksi, udara dikeluarkan");
+        System.out.println();
     }
     
     @Override

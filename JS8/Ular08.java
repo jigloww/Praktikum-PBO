@@ -1,4 +1,4 @@
-public class Ular08 extends Hewan08{
+public class Ular08 extends Hewan08 {
     public boolean isBerbisa;
 
     public Ular08(boolean isBerbisa, double berat, String makanan, String habitat) {

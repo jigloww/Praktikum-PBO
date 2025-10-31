@@ -1,4 +1,4 @@
-public class Hewan08 {
+public abstract class Hewan08 {
     public double berat;
     public String makanan;
     public String habitat;
@@ -9,13 +9,13 @@ public class Hewan08 {
         this.habitat = habitat;
     }
 
-    public void bergerak();
-    public void bernapas();
+    public abstract void bergerak();
+
+    public abstract void bernapas();
 
     public void cetakInfo() {
         System.out.println("Berat    : " + this.berat);
         System.out.println("Makanan  : " + this.makanan);
         System.out.println("Habitat  : " + this.habitat);
-        System.out.println();
     }
 }
