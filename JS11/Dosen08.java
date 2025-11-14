@@ -21,4 +21,5 @@ public class Dosen08 extends Pegawai08 {
         System.out.println("Melaksanakan PBM");
         System.out.println("Membuat evaluasi");
     }
+    
 }
