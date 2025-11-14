@@ -10,6 +10,12 @@ public class DemoPegawaiMain08 {
         dosen1.mengajar();
         System.out.println();
 
+        Pegawai08 pegawai1 = dosen1;
+        System.out.println(pegawai1.nip);
+        System.out.println(pegawai1.nama);
+        pegawai1.displayInfo();
+        System.out.println();
+
         // Dosen08 dosen2 = new Dosen08("19700105", "Muhammad, S.T. M.T", "197001");
         // TenagaKependidikan08 tendik1 = new TenagaKependidikan08("19750301", "Aida,
         // A.Md.", "Tenaga Administrasi");
