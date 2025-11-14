@@ -4,17 +4,22 @@ public class DemoPegawaiMain08 {
     public static void main(String[] args) {
 
         Dosen08 dosen1 = new Dosen08("19940201", "Widia, S.Kom. M.Kom", "199402");
-        Pegawai08 pegawai1 = dosen1;
+        TenagaKependidikan08 tendik1 = new TenagaKependidikan08("19750301", "Aida, A.Md.", "Tenaga Administrasi");
 
-        System.out.println(pegawai1.nip);
-        System.out.println(pegawai1.nama);
-        pegawai1.displayInfo();
+        train(dosen1);
+        train(tendik1);
 
-        Dosen08 newDosen08 = (Dosen08) pegawai1;
 
-        System.out.println(newDosen08.nama);
-        System.out.println(newDosen08.nidn);
-        newDosen08.mengajar();
+
+        // System.out.println(pegawai1.nip);
+        // System.out.println(pegawai1.nama);
+        // pegawai1.displayInfo();
+
+        // Dosen08 newDosen08 = (Dosen08) pegawai1;
+
+        // System.out.println(newDosen08.nama);
+        // System.out.println(newDosen08.nidn);
+        // newDosen08.mengajar();
 
         // System.out.println(dosen1.nip);
         // System.out.println(dosen1.nama);
@@ -35,6 +40,17 @@ public class DemoPegawaiMain08 {
         // daftarPegawai.add(tendik2);
 
         // System.out.println("Jumlah Pegawai: " + daftarPegawai.size());
+        
+    }
+
+    public static void train(Pegawai08 pegawai) {
+        pegawai.displayInfo(); 
+        System.out.println("Mengenalkan lingkungan kampus");
+        System.out.println("Menginfokan SOP/Juknis");
+
+        if (pegawai instanceof Dosen08) {
+            System.out.println("Memberikan pelatihan pedagogik");
+        }
     }
 
 }
